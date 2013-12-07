@@ -1,0 +1,179 @@
+a {
+	text-decoration: none;
+	color: inherit;
+}
+h1 {
+	font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+p {
+	margin-bottom: 10px;
+}
+strong {
+	font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Neucha'), url(http://themes.googleusercontent.com/static/fonts/neucha/v4/XE-CQUm9nMnSxYSbi8LNmQ.woff) format('woff');
+}
+.kinderFont {
+    font-family: 'Neucha', cursive;
+    font-weight:bold;
+}
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+/**********************************/
+
+
+/*		Header		*/
+.header {
+	background: url("../img/top-bg.png") left center repeat-x;
+	height: 158px;
+	width: 100%;
+	position: relative;
+	z-index: 3
+}
+
+.logo {
+	background: url("../img/logo.png") center center no-repeat;
+	height: 158px;
+	width: 259px;
+	margin-left: 130px;
+}
+
+.mainMenu {
+	margin-top: 130px;
+	color: #383837;
+}
+.mainMenu li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.mainMenu li a:hover {
+	color: #686868;
+	text-shadow: 2px 2px 3px #FFFFFF;
+}
+
+.info {
+	text-align: right;
+	color: #929292;
+	margin: 10px 35px 0 0;
+}
+.info p:first-child {
+	margin-bottom: 15px;
+}
+/************************************/
+
+/*		Main  		*/
+.main {
+	height: 1000px;
+}
+
+.sidebar {
+	width: 170px;
+	height: 100%;
+	position: relative;
+	top: -10px;
+	padding-top: 10px;
+	margin-bottom: -10px;
+	z-index: 1;
+	background: #fff116; /* Old browsers */
+	background: -moz-linear-gradient(left, #fff116 97%, rgba(0,0,0,0) 99%), url("../img/left-bg.png") top right repeat-y; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(97%,#fff116), color-stop(99%,rgba(0,0,0,0))), url("../img/left-bg.png") top right repeat-y; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #fff116 97%,rgba(0,0,0,0) 99%), url("../img/left-bg.png") top right repeat-y; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #fff116 97%,rgba(0,0,0,0) 99%), url("../img/left-bg.png") top right repeat-y; /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #fff116 97%,rgba(0,0,0,0) 99%), url("../img/left-bg.png") top right repeat-y; /* IE10+ */
+	background: linear-gradient(to right, #fff116 97%,rgba(0,0,0,0) 99%), url("../img/left-bg.png") top right repeat-y; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff116', endColorstr='rgba(0,0,0,0)',GradientType=1 ); /* IE6-9 */
+}
+
+.leftMenu {
+	margin-top: 20px;
+}
+.leftMenu li {
+	text-align: right;
+	padding-right: 10px;
+	color: #575757;
+	line-height: 23px;
+}
+.leftMenu li a:after {
+	content: "";
+	height: 23px;
+	width: 23px;
+	margin-left: 5px;
+	display: inline-block;
+	background: url("../img/kinder-flower-1.png") center center no-repeat;
+}
+.leftMenu li a:hover {
+	color: #686868;
+	text-shadow: 2px 2px 3px #FFFFFF;
+}
+
+.content {
+	display: table;
+	padding: 15px 35px 0;
+	font-size: 12px;
+	line-height: 16px;
+	color: #383837;
+}
+.content h1 {
+	color: #383837;
+}
+.coursList {
+	list-style: disc inside;
+	height: 194px;
+	margin: 15px 0 20px;
+}
+.coursList:before {
+	content: "";
+	display: inline-block;
+	background: url("../img/content-vertical-kids.jpg") center center no-repeat;
+	height: 194px;
+	width: 66px;
+	float: left;
+}
+.coursList li {
+	line-height: 20px;
+}
+.missionList {
+	margin: 15px 0;
+	list-style: disc inside;
+	padding-left: 65px;
+}
+/*****************************************/
+
+/*		Footer 		*/
+.footer {
+	height: 150px;
+	width: 100%;
+	background: red;
+	margin-top: -150px;
+	position: relative;
+	background: #b6d14c; /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 1%, #b6d14c 3%), url("../img/bottom-bg.png") top left repeat-x; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(0,0,0,0)), color-stop(3%,#b6d14c)), url("../img/bottom-bg.png") top left repeat-x; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 1%,#b6d14c 3%), url("../img/bottom-bg.png") top left repeat-x; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 1%,#b6d14c 3%), url("../img/bottom-bg.png") top left repeat-x; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 1%,#b6d14c 3%), url("../img/bottom-bg.png") top left repeat-x; /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 1%,#b6d14c 3%), url("../img/bottom-bg.png") top left repeat-x; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0,0,0,0)', endColorstr='#b6d14c',GradientType=0 ), url("../img/bottom-bg.png") top left repeat-x; /* IE6-9 */
+}
+
+.tree {
+	background: url("../img/tree.png") center center no-repeat;
+	width: 225px;
+	height: 213px;
+	position: absolute;
+	left: 50px;
+	bottom: 0;
+	z-index: 4;
+}
+/**************************************/
