@@ -14,12 +14,6 @@ strong {
 	font-weight: bold;
 }
 
-@font-face {
-  font-family: 'Neucha';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Neucha'), url(http://themes.googleusercontent.com/static/fonts/neucha/v4/XE-CQUm9nMnSxYSbi8LNmQ.woff) format('woff');
-}
 .kinderFont {
     font-family: 'Neucha', cursive;
     font-weight:bold;
@@ -66,6 +60,7 @@ strong {
 	text-align: right;
 	color: #929292;
 	margin: 10px 35px 0 0;
+	max-width: 450px;
 }
 .info p:first-child {
 	margin-bottom: 15px;
@@ -92,7 +87,6 @@ strong {
 	background: -o-linear-gradient(left, #fff116 97%,rgba(0,0,0,0) 99%), url("../img/left-bg.png") top right repeat-y; /* Opera 11.10+ */
 	background: -ms-linear-gradient(left, #fff116 97%,rgba(0,0,0,0) 99%), url("../img/left-bg.png") top right repeat-y; /* IE10+ */
 	background: linear-gradient(to right, #fff116 97%,rgba(0,0,0,0) 99%), url("../img/left-bg.png") top right repeat-y; /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff116', endColorstr='rgba(0,0,0,0)',GradientType=1 ); /* IE6-9 */
 }
 
 .leftMenu {
@@ -164,7 +158,6 @@ strong {
 	background: -o-linear-gradient(top, rgba(0,0,0,0) 1%,#b6d14c 3%), url("../img/bottom-bg.png") top left repeat-x; /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, rgba(0,0,0,0) 1%,#b6d14c 3%), url("../img/bottom-bg.png") top left repeat-x; /* IE10+ */
 	background: linear-gradient(to bottom, rgba(0,0,0,0) 1%,#b6d14c 3%), url("../img/bottom-bg.png") top left repeat-x; /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0,0,0,0)', endColorstr='#b6d14c',GradientType=0 ), url("../img/bottom-bg.png") top left repeat-x; /* IE6-9 */
 }
 
 .tree {
