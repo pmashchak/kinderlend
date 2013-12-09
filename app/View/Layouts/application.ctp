@@ -15,10 +15,10 @@
       <div class="header">
         <div class="logo fleft"></div>
         <ul class="mainMenu fleft kinderFont">
-          <li><a href="#" title="О нас">О нас</a></li>
-          <li><a href="#" title="Детский сад">Детский сад</a></li>
-          <li><a href="#" title="Центр развития">Центр развития</a></li>
-          <li><a href="#" title="Контакты">Контакты</a></li>
+          <li><a href="/" title="О нас">О нас</a></li>
+          <li><a href="/kindergarden" title="Детский сад">Детский сад</a></li>
+          <li><a href="/center" title="Центр развития">Центр развития</a></li>
+          <li><a href="/contacts" title="Контакты">Контакты</a></li>
         </ul>
         <div class="info fright kinderFont">
           <p>Одна из самых больших удач в жизни человека - Счастливое Детство</p>

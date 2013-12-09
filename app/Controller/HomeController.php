@@ -48,4 +48,16 @@ class HomeController extends AppController {
   public function index() {
     $this->layout = 'application';
   }
+
+  public function kindergarden() {
+    $this->layout = 'application';
+  }
+
+  public function center() {
+    $this->layout = 'application';
+  }
+
+  public function contacts() {
+    $this->layout = 'application';
+  }
 }
