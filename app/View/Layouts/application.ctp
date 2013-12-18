@@ -4,15 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Киндерленд - центр развития ребенка | детский сад | частный детский сад.</title>
-        <!-- link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css" -->
+        <link href='http://fonts.googleapis.com/css?family=Neucha|Bonbon&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <?php
            echo $this->Html->css('reset');
            echo $this->Html->css('style');
         ?>
     </head>
     <body>
-      <div class="header">
+      <div class="header minWidth">
         <div class="logo fleft"></div>
         <ul class="mainMenu fleft kinderFont">
           <li><a href="/" title="О нас">О нас</a></li>
@@ -20,14 +19,14 @@
           <li><a href="/center" title="Центр развития">Центр развития</a></li>
           <li><a href="/contacts" title="Контакты">Контакты</a></li>
         </ul>
-        <div class="info fright kinderFont">
+        <div class="info kinderFont">
           <p>Одна из самых больших удач в жизни человека - Счастливое Детство</p>
-          тел.: 096 406 35 18<br/>
-          099 172 72 86
+          <p>тел.: 096 406 35 18</p>
+          <p>099 172 72 86</p>
         </div>
       </div>        
-      <div class="main">
-        <div class="sidebar fleft">
+      <div class="main minWidth">
+        <div class="sidebar">
           <ul class="leftMenu kinderFont">
             <li><a href="#" title="Англйский">Англйский</a></li>
             <li><a href="#" title="Творчество">Творчество</a></li>
@@ -39,7 +38,7 @@
           <?php echo $this->fetch('content'); ?>
         </div>
       </div>
-      <div class="footer">
+      <div class="footer minWidth">
         <div class="tree"></div>
       </div> 
     </body>
