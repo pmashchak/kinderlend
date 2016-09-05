@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /
+
+Host: kinderland.org.ua
