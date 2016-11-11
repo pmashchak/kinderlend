@@ -67,7 +67,7 @@
 }
 
 .top-menu {
-    width: 50%;
+    width: 60%;
   height: 100%;
 }
 
@@ -197,7 +197,7 @@
 /*sidebar*/
 .sidebar {
   width: 12.9%;
-    display: table-cell;
+  display: table-cell;
   background-color: #FFF116;
   border-right: 2px solid #464B37;
   min-height: 680px;
