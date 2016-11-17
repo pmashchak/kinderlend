@@ -35,7 +35,6 @@ class HomeController extends AppController {
  * @var array
  */
   public $uses = array();
-
 /**
  * Displays a view
  *
@@ -45,19 +44,25 @@ class HomeController extends AppController {
  *  or MissingViewException in debug mode.
  */
 
-  public function index() {
-    $this->layout = 'application';
-  }
+  public function index() { }
 
-  public function kindergarden() {
-    $this->layout = 'application';
-  }
+  public function full() { }
 
-  public function center() {
-    $this->layout = 'application';
-  }
+  public function center() { }
 
-  public function contacts() {
-    $this->layout = 'application';
-  }
+  public function contacts() { }
+
+  public function angliyskiy() { }
+
+  public function gruppy() { }
+
+  public function rasporiadok() { }
+
+  public function metodiki() { }
+
+  public function vospitateli() { }
+
+  public function menu() { }
+
+  public function ceny() { }
 }

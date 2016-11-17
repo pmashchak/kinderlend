@@ -24,10 +24,18 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'home', 'action' => 'index'));
-  Router::connect('/kindergarden', array('controller' => 'home', 'action' => 'kindergarden'));
-  Router::connect('/center', array('controller' => 'home', 'action' => 'center'));
+
+  Router::connect('/', array('controller' => 'home', 'action' => 'index'));
+  Router::connect('/detskiy-sad', array('controller' => 'home', 'action' => 'full'));
+  Router::connect('/centr-razvitiya', array('controller' => 'home', 'action' => 'center'));
   Router::connect('/contacts', array('controller' => 'home', 'action' => 'contacts'));
+  Router::connect('/angliyskiy', array('controller' => 'home', 'action' => 'angliyskiy'));
+  Router::connect('/gruppy', array('controller' => 'home', 'action' => 'gruppy'));
+  Router::connect('/rasporiadok-dnia', array('controller' => 'home', 'action' => 'rasporiadok'));
+  Router::connect('/metodiki', array('controller' => 'home', 'action' => 'metodiki'));
+  Router::connect('/vospitateli', array('controller' => 'home', 'action' => 'vospitateli'));
+  Router::connect('/menu', array('controller' => 'home', 'action' => 'menu'));
+  Router::connect('/ceny', array('controller' => 'home', 'action' => 'ceny'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */

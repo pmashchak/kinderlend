@@ -1,61 +1,193 @@
-<?php
-/**
- *
- *
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.View.Layouts
- * @since         CakePHP(tm) v 0.10.0.1076
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
 
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
-?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<?php echo $this->Html->charset(); ?>
-	<title>
-		<?php echo $cakeDescription ?>:
-		<?php echo $title_for_layout; ?>
-	</title>
-	<?php
-		echo $this->Html->meta('icon');
+  <meta charset="UTF-8">
 
-		echo $this->Html->css('cake.generic');
+  <!--Responsive WebDesign-->
+  <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+  <meta name="description" content="Центр развития ребенка Киндерленд - это качественное образование для ваших детей. Лучший детский сад полного дня в Киеве. Мы предлагаем подготовку к школе, проводим детские праздники, английский, кружки, развивающие занятия. Все что нужно для всестороннего развития вашего ребенка.">
+  <meta name="keywords" content="детский сад, детские сады киева, частный детский сад, центр развития ребенка, детский сад Святошино, лучшие детские сады, детские сады монтессори">
+  <title>Детский сад - Киев Святошино | Киндерленд частный детский сад английский | Дошкольное образование.</title>
+  <?php $this->Html->css('main'); ?>
+  <link rel="stylesheet" href="css/main.css">
 
-		echo $this->fetch('meta');
-		echo $this->fetch('css');
-		echo $this->fetch('script');
-	?>
+  <!--Font Awesome Icons-->
+  <link rel="stylesheet" href="fa/css/font-awesome.css">
+  <!--Google fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Neucha|Bonbon&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <!--Favicon-->
+  <link rel="shortcut icon"" href="img/lst.png" type="image/png">
+
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
-		</div>
-		<div id="content">
+    <!--wrapper-->
+    <div class="wrapper">
+    <!--header-->
+    <div class="header">
+      <img src="img/logo.png">
+      <div class="container"></div>
+      <input type="checkbox" id="focus">
+        <label for="focus" class="om">
+          <span class="icons">
+            <i class="icon-bar"></i>
+            <i class="icon-bar"></i>
+            <i class="icon-bar"></i>
+          </span>
+        </label>
+      <div class="top-menu">
+      <label for="focus" class="om exit">
+        <i class="fa fa-angle-double-right"></i>
+      </label>
+        <ul>
+          <li><a href="/" >О нас</a></li>
+          <li><a href="detskiy-sad" >Детский сад</a></li>
+          <li><a href="centr-razvitiya" >Центр развития </a></li>
+          <li><a href="contacts" >Контакты</a></li>
+          <li><a href="ceny" >Цены</a></li>
+        </ul>
+      </div>
+      <div class="info-header">
+        Одна из самых больших удач в жизни человека - Счастливое Детство
+        <div class="contacts">
+          Kievstar <a class="phones" href="tel:+380964063518">(096) 406-35-18</a><br/>
+          Vodafone <a class="phones" href="tel:+380991727286">(099) 172-72-86</a><br/>
+          Life     <a class="phones" href="tel:+380933670440">(093) 367-04-40</a>
+        </div>
+      </div>
+        <!--btns for loc.
+        <div class="btns">
+          <a href="#">UK</a>
+          <a href="#">RU</a>
+          <a href="#">EN</a>
+        </div>
+        btns for loc. end-->
+    </div>
+    <!--header end-->
+       <!--wrap-->
+       <div class="wrap">
+      <!--sidebar-->
+      <input type="checkbox" id="checker">
+        <label for="checker" class="nav">
+          <span class="icons">
+            <i class="icon-bar"></i>
+            <i class="icon-bar"></i>
+            <i class="icon-bar"></i>
+          </span>
+        </label>
+      <div class="sidebar">
+         <input type="checkbox" id="checker">
+        <label for="checker" class="close">
+          <i class="fa fa-angle-double-left"></i>
+        </label>
+        <ul>
+          <li><a href="/">О нас</a></li>
+          <!-- <li><a href="kindergarten.html" >Детский сад - Программа</a></li> -->
+          <li><a href="detskiy-sad" >Детский сад</a></li>
+          <!-- <li><a href="no-full.html" >Сад короткого дня</a></li> -->
+          <li><a href="centr-razvitiya" >Центр развития</a></li>
+          <li><a href="contacts" >Контакты</a></li>
+          <li><a href="angliyskiy" >Английский</a></li>
+          <li><a href="gruppy" >Группы</a></li>
+          <li><a href="rasporiadok-dnia" >Распорядок дня</a></li>
+          <!-- <li><a href="objects.html" >Предметы</a></li> -->
+          <li><a href="metodiki" >Методики</a></li>
+          <li><a href="vospitateli" >Воспитатели</a></li>
+          <!-- <li><a href="tvorchestvo.html" >Творчество</a></li> -->
+          <li><a href="menu" >Меню</a></li>
+          <li><a href="ceny" >Цены</a></li>
+        </ul>
+      </div>
+      <!--sidebar end-->
 
-			<?php echo $this->Session->flash(); ?>
+      <!--content-->
+      <div class="content">
+        <?php echo $this->fetch('content'); ?>
+      </div>
+      <!--content end-->
+      </div>
+       <!--wrap end-->
 
-			<?php echo $this->fetch('content'); ?>
-		</div>
-		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false)
-				);
-			?>
-		</div>
-	</div>
-	<?php echo $this->element('sql_dump'); ?>
+       <!--footer-->
+       <div class="footer">
+         <img src="img/der-foot.png" class="img-x">
+         <input type="checkbox" id="ken">
+        <label for="ken" class="lux">
+                    <img src="img/top.png">
+        </label>
+         <div class="for-flex-x">
+               <input type="checkbox" id="ken">
+        <label for="ken" class="lux">
+                    <img src="img/down-64.png">
+        </label>
+        <div class="container-s"></div>
+             <!-- <div class="f-content">
+                 <ul class="footer-links">
+                     <li><a href="#">Element 1</a></li>
+                     <li><a href="#">Element 2</a></li>
+                     <li><a href="#">Element 3</a></li>
+                 </ul>
+             </div>
+             <div class="s-content">
+                 <ul class="footer-links">
+                     <li><a href="#">Element 1</a></li>
+                     <li><a href="#">Element 2</a></li>
+                     <li><a href="#">Element 3</a></li>
+                 </ul>
+             </div>
+             <div class="t-content">
+                 <ul class="footer-links">
+                     <li><a href="#">Element 1</a></li>
+                     <li><a href="#">Element 2</a></li>
+                     <li><a href="#">Element 3</a></li>
+                 </ul>
+             </div> -->
+         </div>
+       </div>
+       <!--footer end-->
+    </div>
+    <!--wrapper end-->
+
+  <!-- Google.Analytics -->
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-34817801-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+      (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+              try {
+                  w.yaCounter40972139 = new Ya.Metrika({
+                      id:40972139,
+                      clickmap:true,
+                      trackLinks:true,
+                      accurateTrackBounce:true
+                  });
+              } catch(e) { }
+          });
+
+          var n = d.getElementsByTagName("script")[0],
+              s = d.createElement("script"),
+              f = function () { n.parentNode.insertBefore(s, n); };
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+          if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+          } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+  </script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/40972139" style="position:absolute; left:-9999px;" alt="" />
+    </div>
+  </noscript>
 </body>
 </html>
