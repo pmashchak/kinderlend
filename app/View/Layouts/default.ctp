@@ -6,16 +6,11 @@
 
   <!--Responsive WebDesign-->
   <meta name="viewport" content="width=device-width, inital-scale=1.0" />
-  <meta name="description" content="Центр развития ребенка Киндерленд - это качественное образование для ваших детей. Лучший детский сад полного дня в Киеве. Мы предлагаем подготовку к школе, проводим детские праздники, английский, кружки, развивающие занятия. Все что нужно для всестороннего развития вашего ребенка.">
-  <meta name="keywords" content="детский сад, детские сады киева, частный детский сад, центр развития ребенка, детский сад Святошино, лучшие детские сады, детские сады монтессори">
-  <title>Детский сад - Киев Святошино | Киндерленд частный детский сад английский | Дошкольное образование.</title>
-  <?php $this->Html->css('main'); ?>
-  <link rel="stylesheet" href="css/main.css">
-
-  <!--Font Awesome Icons-->
-  <link rel="stylesheet" href="fa/css/font-awesome.css">
-  <!--Google fonts-->
-  <link href='http://fonts.googleapis.com/css?family=Neucha|Bonbon&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <?php echo $this->fetch('meta'); ?>
+  <title><?php echo $this->fetch('title'); ?></title>
+  <?php echo $this->Html->css('main'); ?>
+  <?php echo $this->Html->css('/fa/css/font-awesome.css'); ?>
+  <?php echo $this->Html->css('http://fonts.googleapis.com/css?family=Neucha|Bonbon&subset=latin,cyrillic'); ?>
   <!--Favicon-->
   <link rel="shortcut icon"" href="img/lst.png" type="image/png">
 
