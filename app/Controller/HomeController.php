@@ -65,4 +65,6 @@ class HomeController extends AppController {
   public function menu() { }
 
   public function ceny() { }
+
+  public function sitemap() { }
 }

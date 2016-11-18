@@ -116,27 +116,21 @@
                     <img src="img/down-64.png">
         </label>
         <div class="container-s"></div>
-             <!-- <div class="f-content">
+             <div class="f-content">
                  <ul class="footer-links">
-                     <li><a href="#">Element 1</a></li>
-                     <li><a href="#">Element 2</a></li>
-                     <li><a href="#">Element 3</a></li>
+                     <li><a href="sitemap.html">Карта Сайта HTML</a></li>
                  </ul>
              </div>
              <div class="s-content">
                  <ul class="footer-links">
-                     <li><a href="#">Element 1</a></li>
-                     <li><a href="#">Element 2</a></li>
-                     <li><a href="#">Element 3</a></li>
+                     <li><a href="sitemap.xml">Карта Сайта XML</a></li>
                  </ul>
              </div>
              <div class="t-content">
                  <ul class="footer-links">
-                     <li><a href="#">Element 1</a></li>
-                     <li><a href="#">Element 2</a></li>
-                     <li><a href="#">Element 3</a></li>
+                     <li></li>
                  </ul>
-             </div> -->
+             </div>
          </div>
        </div>
        <!--footer end-->
