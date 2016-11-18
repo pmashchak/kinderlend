@@ -1,3 +1,16 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>KINDERLAND.ORG.UA: Карта сайта</title>
+<meta name="robots" content="noindex, follow, noarchive">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+  body{font-family:courier new, lucida console;}
+  ul { display: table; margin: 0px; padding: 0 }
+  ul li { width: 300px; list-style: none;  float: left; margin-left:10px;}
+</style>
+</head>
+<body>
+<a href="/sitemap.html">Карта сайта</a>
+<hr>Страници:<br>
 <div id="cont">
     <h1>Детский сад Киндерленд карта сайта</h1>
     <h3>Последнее обновление: 2016, Ноябрь 18</h3>
@@ -41,12 +54,6 @@
                             <tr>
                                 <td class="lpage"><a href="http://kinderland.org.ua/menu" title="Детское питание в саду | меню детский сад | меню Киндерленд">Детское питание в саду | меню детский сад | меню Киндерленд</a></td>
                             </tr>
-                            <tr>
-                                <td class="lpage"><a href="http://kinderland.org.ua/sitemap.html" title="Киндерленд карта сайта HTML">Киндерленд карта сайта HTML</a></td>
-                            </tr>
-                            <tr>
-                                <td class="lpage"><a href="http://kinderland.org.ua/sitemap.xml" title="Киндерленд карта сайта XML">Киндерленд карта сайта XML</a></td>
-                            </tr>
                         </tbody>
                     </table>
                 </td>
@@ -54,3 +61,4 @@
         </tbody>
     </table>
 </div>
+</body></html>

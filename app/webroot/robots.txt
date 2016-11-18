@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+Sitemap: http://kinderland.org.ua/sitemap.xml
+Sitemap: http://kinderland.org.ua/sitemap.html
 Host: kinderland.org.ua

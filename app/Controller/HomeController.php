@@ -66,5 +66,5 @@ class HomeController extends AppController {
 
   public function ceny() { }
 
-  public function sitemap() { }
+  public function sitemap() { $this->layout = false; }
 }
