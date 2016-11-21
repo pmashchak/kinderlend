@@ -35,11 +35,11 @@
         <i class="fa fa-angle-double-right"></i>
       </label>
         <ul>
-          <li><a href="/" >О нас</a></li>
-          <li><a href="detskiy-sad" >Детский сад</a></li>
-          <li><a href="centr-razvitiya" >Центр развития </a></li>
-          <li><a href="contacts" >Контакты</a></li>
-          <li><a href="ceny" >Цены</a></li>
+          <li><a href="/" hreflang="ru" >О нас</a></li>
+          <li><a href="detskiy-sad" hreflang="ru" >Детский сад</a></li>
+          <li><a href="centr-razvitiya" hreflang="ru" >Центр развития </a></li>
+          <li><a href="contacts" hreflang="ru" >Контакты</a></li>
+          <li><a href="ceny" hreflang="ru" >Цены</a></li>
         </ul>
       </div>
       <div class="info-header">
@@ -76,21 +76,21 @@
           <i class="fa fa-angle-double-left"></i>
         </label>
         <ul>
-          <li><a href="/">О нас</a></li>
+          <li><a href="/" hreflang="ru" >О нас</a></li>
           <!-- <li><a href="kindergarten.html" >Детский сад - Программа</a></li> -->
-          <li><a href="detskiy-sad" >Детский сад</a></li>
+          <li><a href="detskiy-sad" hreflang="ru" >Детский сад</a></li>
           <!-- <li><a href="no-full.html" >Сад короткого дня</a></li> -->
-          <li><a href="centr-razvitiya" >Центр развития</a></li>
-          <li><a href="contacts" >Контакты</a></li>
-          <li><a href="angliyskiy" >Английский</a></li>
-          <li><a href="gruppy" >Группы</a></li>
-          <li><a href="rasporiadok-dnia" >Распорядок дня</a></li>
+          <li><a href="centr-razvitiya" hreflang="ru" >Центр развития</a></li>
+          <li><a href="contacts" hreflang="ru" >Контакты</a></li>
+          <li><a href="angliyskiy" hreflang="ru" >Английский</a></li>
+          <li><a href="gruppy" hreflang="ru" >Группы</a></li>
+          <li><a href="rasporiadok-dnia" hreflang="ru" >Распорядок дня</a></li>
           <!-- <li><a href="objects.html" >Предметы</a></li> -->
-          <li><a href="metodiki" >Методики</a></li>
-          <li><a href="vospitateli" >Воспитатели</a></li>
+          <li><a href="metodiki" hreflang="ru" >Методики</a></li>
+          <li><a href="vospitateli" hreflang="ru" >Воспитатели</a></li>
           <!-- <li><a href="tvorchestvo.html" >Творчество</a></li> -->
-          <li><a href="menu" >Меню</a></li>
-          <li><a href="ceny" >Цены</a></li>
+          <li><a href="menu" hreflang="ru" >Меню</a></li>
+          <li><a href="ceny" hreflang="ru" >Цены</a></li>
         </ul>
       </div>
       <!--sidebar end-->
