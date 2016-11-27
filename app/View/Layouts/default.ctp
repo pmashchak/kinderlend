@@ -43,7 +43,7 @@
         </ul>
       </div>
       <div class="info-header">
-        Одна из самых больших удач в жизни человека - Счастливое Детство
+        <div class="motto">Качественно Доступно и Легко</div>
         <div class="contacts">
           Kievstar <a class="phones" href="tel:+380964063518">(096) 406-35-18</a><br/>
           Vodafone <a class="phones" href="tel:+380991727286">(099) 172-72-86</a><br/>
