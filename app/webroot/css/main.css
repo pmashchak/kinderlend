@@ -226,6 +226,12 @@
   color: #888;
 }
 
+.facebook {
+  height: 32px;
+  width: 32px;
+  background: url("../img/facebook.png") no-repeat right center;
+}
+
 .sidebar ul li a::before {
   content: "";
     height: 23px;

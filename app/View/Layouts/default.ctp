@@ -118,12 +118,15 @@
         <div class="container-s"></div>
              <div class="f-content">
                  <ul class="footer-links">
-                     <li><a href="sitemap.html">Карта Сайта HTML</a></li>
+                     <li><a href="sitemap.html">Карта Сайта</a></li>
+                     <li><a class="facebook" href="https://www.facebook.com/379462358912150"></a></li>
                  </ul>
+
              </div>
              <div class="s-content">
                  <ul class="footer-links">
-                     <li><a href="sitemap.xml">Карта Сайта XML</a></li>
+                    <li><a href="contacts">Киндерленд Адрес</a></li>
+                    <li><a href="/">Лицензия №575441</a></li>
                  </ul>
              </div>
              <div class="t-content">
