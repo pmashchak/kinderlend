@@ -1,8 +1,8 @@
-<?php $this->assign("title", "Детский сад адрес | контакты Киндерленд"); ?>
+<?php $this->assign("title", "Детский сад адрес | Контакты"); ?>
 <?php $this->Html->meta("keywords", "детские сады киева на карте, детские сады адрес, детский сад контакты, адрес центр развития ребенка Киндерленд, контакты детский сад Киндерленд,", array("inline" => false)); ?>
 <?php $this->Html->meta("description", "Наш центр развития ребенка надодится в Святошинском районе (Академгородок), улица Олевская 5, в живописном микрорайоне возле соснового леса", array("inline" => false)); ?>
 
-<div class="rubric">Контакты</div>
+<h1 class="rubric">Контакты</h1>
 <div class="for-flex cs">
     <div class="address">
         <div class="rubric"><i class="fa fa-map-marker"></i> Адрес</div>
