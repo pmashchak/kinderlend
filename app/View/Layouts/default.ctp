@@ -35,19 +35,19 @@
         <i class="fa fa-angle-double-right"></i>
       </label>
         <ul>
-          <li><a href="/" hreflang="ru" >О нас</a></li>
-          <li><a href="detskiy-sad" hreflang="ru" >Детский сад</a></li>
-          <li><a href="centr-razvitiya" hreflang="ru" >Центр развития </a></li>
-          <li><a href="contacts" hreflang="ru" >Контакты</a></li>
-          <li><a href="ceny" hreflang="ru" >Цены</a></li>
+          <li><a href="/" hreflang="ru" title="О нас" >О нас</a></li>
+          <li><a href="detskiy-sad" hreflang="ru" title="Детский сад" >Детский сад</a></li>
+          <li><a href="centr-razvitiya" hreflang="ru" title="Центр развития" >Центр развития</a></li>
+          <li><a href="contacts" hreflang="ru" title="Контакты" >Контакты</a></li>
+          <li><a href="ceny" hreflang="ru" title="Цены" >Цены</a></li>
         </ul>
       </div>
       <div class="info-header">
         <div class="motto">Качественно Доступно и Легко</div>
         <div class="contacts">
-          Kievstar <a class="phones" href="tel:+380964063518">(096) 406-35-18</a><br/>
-          Vodafone <a class="phones" href="tel:+380991727286">(099) 172-72-86</a><br/>
-          Life     <a class="phones" href="tel:+380933670440">(093) 367-04-40</a>
+          Kievstar <a class="phones" href="tel:+380964063518" title="Телефоны Киндерленд (096) 406-35-18">(096) 406-35-18</a><br/>
+          Vodafone <a class="phones" href="tel:+380991727286" title="Телефоны Киндерленд">(099) 172-72-86</a><br/>
+          Life     <a class="phones" href="tel:+380933670440" title="Телефоны Киндерленд">(093) 367-04-40</a>
         </div>
       </div>
         <!--btns for loc.
@@ -76,21 +76,21 @@
           <i class="fa fa-angle-double-left"></i>
         </label>
         <ul>
-          <li><a href="/" hreflang="ru" >О нас</a></li>
+          <li><a href="/" hreflang="ru" title="О нас">О нас</a></li>
           <!-- <li><a href="kindergarten.html" >Детский сад - Программа</a></li> -->
-          <li><a href="detskiy-sad" hreflang="ru" >Детский сад</a></li>
+          <li><a href="detskiy-sad" hreflang="ru" title="Детский сад">Детский сад</a></li>
           <!-- <li><a href="no-full.html" >Сад короткого дня</a></li> -->
-          <li><a href="centr-razvitiya" hreflang="ru" >Центр развития</a></li>
-          <li><a href="contacts" hreflang="ru" >Контакты</a></li>
-          <li><a href="angliyskiy" hreflang="ru" >Английский</a></li>
-          <li><a href="gruppy" hreflang="ru" >Группы</a></li>
-          <li><a href="rasporiadok-dnia" hreflang="ru" >Распорядок дня</a></li>
+          <li><a href="centr-razvitiya" hreflang="ru" title="Центр развития">Центр развития</a></li>
+          <li><a href="contacts" hreflang="ru" title="Контакты">Контакты</a></li>
+          <li><a href="angliyskiy" hreflang="ru" title="Английский">Английский</a></li>
+          <li><a href="gruppy" hreflang="ru" title="Группы">Группы</a></li>
+          <li><a href="rasporiadok-dnia" hreflang="ru" title="Распорядок дня">Распорядок дня</a></li>
           <!-- <li><a href="objects.html" >Предметы</a></li> -->
-          <li><a href="metodiki" hreflang="ru" >Методики</a></li>
-          <li><a href="vospitateli" hreflang="ru" >Воспитатели</a></li>
+          <li><a href="metodiki" hreflang="ru" title="Методики">Методики</a></li>
+          <li><a href="vospitateli" hreflang="ru" title="Воспитатели">Воспитатели</a></li>
           <!-- <li><a href="tvorchestvo.html" >Творчество</a></li> -->
-          <li><a href="menu" hreflang="ru" >Меню</a></li>
-          <li><a href="ceny" hreflang="ru" >Цены</a></li>
+          <li><a href="menu" hreflang="ru" title="Меню">Меню</a></li>
+          <li><a href="ceny" hreflang="ru" title="Цены" >Цены</a></li>
         </ul>
       </div>
       <!--sidebar end-->
@@ -110,23 +110,23 @@
         <label for="ken" class="lux">
                     <img src="img/top.png">
         </label>
-         <div class="for-flex-x">
-               <input type="checkbox" id="ken">
-        <label for="ken" class="lux">
-                    <img src="img/down-64.png">
-        </label>
-        <div class="container-s"></div>
+        <div class="for-flex-x">
+          <input type="checkbox" id="ken">
+          <label for="ken" class="lux">
+            <img src="img/down-64.png">
+          </label>
+          <div class="container-s"></div>
              <div class="f-content">
                  <ul class="footer-links">
-                     <li><a href="sitemap.html">Карта Сайта</a></li>
-                     <li><a class="facebook" href="https://www.facebook.com/379462358912150"></a></li>
+                     <li><a href="sitemap.html" title="Карта Сайта Киндерленд">Карта Сайта</a></li>
+                     <li><a class="facebook" href="https://www.facebook.com/379462358912150" title="Киндерленд в Фейсбуке"></a></li>
                  </ul>
 
              </div>
              <div class="s-content">
                  <ul class="footer-links">
-                    <li><a href="contacts">Киндерленд Адрес</a></li>
-                    <li><a href="/">Лицензия №575441</a></li>
+                    <li><a href="contacts" title="Киндерленд Адрес">Киндерленд Адрес</a></li>
+                    <li><a href="/" title="Лицензия Киндерленд">Лицензия №575441</a></li>
                  </ul>
              </div>
              <div class="t-content">
