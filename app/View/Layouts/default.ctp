@@ -13,7 +13,6 @@
   <?php echo $this->Html->css('http://fonts.googleapis.com/css?family=Neucha|Bonbon&subset=latin,cyrillic'); ?>
   <!--Favicon-->
   <link rel="shortcut icon"" href="img/lst.png" type="image/png">
-
 </head>
 <body>
     <!--wrapper-->
@@ -131,7 +130,7 @@
              </div>
              <div class="t-content">
                  <ul class="footer-links">
-                     <li></li>
+                    <li><a href="https://mail.yandex.com/?pdd_domain=kinderland.org.ua" target="_blank">Вход в Почту</a></li>
                  </ul>
              </div>
          </div>
