@@ -8,9 +8,18 @@
   <meta name="viewport" content="width=device-width, inital-scale=1.0" />
   <?php echo $this->fetch('meta'); ?>
   <title><?php echo $this->fetch('title'); ?></title>
-  <?php echo $this->Html->css('main'); ?>
+
   <?php echo $this->Html->css('/fa/css/font-awesome.css'); ?>
   <?php echo $this->Html->css('http://fonts.googleapis.com/css?family=Neucha|Bonbon&subset=latin,cyrillic'); ?>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.min.css" media="screen">
+  <?php echo $this->Html->css('bootstrap.min'); ?>
+  <?php echo $this->Html->css('main'); ?>
+
+  <?php echo $this->Html->script('jquery.min'); ?>
+  <?php echo $this->Html->script('bootstrap.min'); ?>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.js"></script>
+  <?php echo $this->Html->script('application'); ?>
+
   <!--Favicon-->
   <link rel="shortcut icon"" href="img/lst.png" type="image/png">
 </head>
@@ -38,6 +47,7 @@
           <li><a href="detskiy-sad" hreflang="ru" title="Детский сад" >Детский сад</a></li>
           <li><a href="centr-razvitiya" hreflang="ru" title="Центр развития" >Центр развития</a></li>
           <li><a href="contacts" hreflang="ru" title="Контакты" >Контакты</a></li>
+          <li><a href="foto" hreflang="ru" title="Фото">Фото</a></li>
           <li><a href="ceny" hreflang="ru" title="Цены" >Цены</a></li>
         </ul>
       </div>
@@ -88,6 +98,7 @@
           <li><a href="metodiki" hreflang="ru" title="Методики">Методики</a></li>
           <li><a href="vospitateli" hreflang="ru" title="Воспитатели">Воспитатели</a></li>
           <!-- <li><a href="tvorchestvo.html" >Творчество</a></li> -->
+          <li><a href="foto" hreflang="ru" title="Фото">Фото</a></li>
           <li><a href="menu" hreflang="ru" title="Меню">Меню</a></li>
           <li><a href="ceny" hreflang="ru" title="Цены" >Цены</a></li>
         </ul>
@@ -151,6 +162,10 @@
 
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+  });
       (function (d, w, c) {
           (w[c] = w[c] || []).push(function() {
               try {

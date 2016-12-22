@@ -35,6 +35,7 @@
   Router::connect('/metodiki', array('controller' => 'home', 'action' => 'metodiki'));
   Router::connect('/vospitateli', array('controller' => 'home', 'action' => 'vospitateli'));
   Router::connect('/menu', array('controller' => 'home', 'action' => 'menu'));
+  Router::connect('/foto', array('controller' => 'home', 'action' => 'foto'));
   Router::connect('/ceny', array('controller' => 'home', 'action' => 'ceny'));
   Router::connect('/sitemap.html', array('controller' => 'home', 'action' => 'sitemap'));
 /**
