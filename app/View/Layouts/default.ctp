@@ -11,13 +11,13 @@
 
   <?php echo $this->Html->css('/fa/css/font-awesome.css'); ?>
   <?php echo $this->Html->css('http://fonts.googleapis.com/css?family=Neucha|Bonbon&subset=latin,cyrillic'); ?>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.min.css" media="screen">
+  <?php echo $this->Html->css('ekko-lightbox.min'); ?>
   <?php echo $this->Html->css('bootstrap.min'); ?>
   <?php echo $this->Html->css('main'); ?>
 
   <?php echo $this->Html->script('jquery.min'); ?>
   <?php echo $this->Html->script('bootstrap.min'); ?>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.js"></script>
+  <?php echo $this->Html->script('ekko-lightbox.min'); ?>
   <?php echo $this->Html->script('application'); ?>
 
   <!--Favicon-->
@@ -162,10 +162,6 @@
 
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">
-  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-      event.preventDefault();
-      $(this).ekkoLightbox();
-  });
       (function (d, w, c) {
           (w[c] = w[c] || []).push(function() {
               try {
