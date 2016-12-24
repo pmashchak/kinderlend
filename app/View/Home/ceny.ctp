@@ -1,4 +1,4 @@
-<?php $this->assign("title", "Детский сад цены в Киеве | цены обучение в детском саду Киева | Цены"); ?>
+<?php $this->assign("title", "Цены"); ?>
 <?php $this->Html->meta("keywords", "детские сады киева цена, детский сад цена", array("inline" => false)); ?>
 <?php $this->Html->meta("description", "Наши цены вас приятно удивят, мы предлагаем лучшее качество за оптимальные деньги.", array("inline" => false)); ?>
 

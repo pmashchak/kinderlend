@@ -2,7 +2,7 @@
 <?php $this->Html->meta("keywords", "методики обучения детей, методики эфективного образования, эйдетика, детское развитие", array("inline" => false)); ?>
 <?php $this->Html->meta("description", "В центре развития Киндерленд мы используем собственные методити образования и наработки на базе МОЗ Украины. Привлекаем опытных преподавателей.", array("inline" => false)); ?>
 
-<div class="rubric">Методика</div>
+<h1 class="rubric">Методики</h1>
 <div class="for-flex">
     <img src="img/health.png" class="size">
     <div class="spage">
