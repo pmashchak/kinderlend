@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="ticket">
-                <div class="cir"><img src="img/easter.png"></div>
+                <div class="cir"><img src="img/christmas.png"></div>
                 <br>
                 <div class="rubric">Рождество</div>
                 <div class="info-k">

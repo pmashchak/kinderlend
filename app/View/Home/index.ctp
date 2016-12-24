@@ -3,7 +3,7 @@
 <?php $this->Html->meta("description", "Детский сад Киндерленд - это качественное образование для ваших детей. Лучший детский сад полного дня в Киеве. Мы предлагаем подготовку к школе, проводим детские праздники, английский, кружки, развивающие занятия. Все что нужно для всестороннего развития вашего ребенка.", array("inline" => false)); ?>
 
 <div class="rubric">
-    Авторская система работы сада «Киндерленд»
+    <h3>Добро пожаловать в детский сад Киндерленд.</h3>
 </div>
 <!-- <div class="wrap-cards">
     <div class="container-x">
@@ -42,19 +42,18 @@
     </div>
 </div> -->
 <p class="spage">
-    В нашем саду есть тот баланс и количество занятий которые не идут в ущерб детству и здоровью детей. Изучение одних предметов не проходит в ущерб других.
+    Будьте уверены - Вы попали в хорошее место к хорошим людям.
+    <br> Мы работаем уже 8 лет на рынке образовательных услуг для детей.
+    <br> У нас есть лицензия, авторские разработки, и уникальная система обучения.
+    <br> Приходите на бесплатный пробный день или просто пообщатся.
     <br>
-    <br> Все обучение проходит на трех языках (украинский, английский и русский) в игровой форме.
-    <br>
-    <br> Ребенок получает соответствующие навыки способствующие всесторонней подготовке к реальной жизни и к дальнейшему обучению.
-    <br>
-    <br> Вы вибираете оптимальный график посещений <a href="detskiy-sad">Сад полного  дня</a> или же <a href="centr-razvitiya">Сад короткого дня</a>
+    <br> Вибирайте <a href="detskiy-sad">Сад полного дня</a> или <a href="centr-razvitiya">Сад короткого дня</a>
 </p>
 <div class="rubric">Обучение направленно на главные 4 направления</div>
 <div class="wrap-cards">
     <div class="container-x">
         <div class="ticket">
-            <div class="cir"><img src="img/music.png"></div>
+            <div class="cir"><img alt="музыкальное обучение, киндерленд музыкальное направление" title="Музыкальное направление" src="img/music.png"></div>
             <br>
             <div class="rubric">Музыкальное направление</div>
             <div class="info-k">
@@ -62,7 +61,7 @@
             </div>
         </div>
         <div class="ticket">
-            <div class="cir"><img src="img/lang.png"></div>
+            <div class="cir"><img alt="английский язык, английский для детей" title="Иностранные языки" src="img/lang.png"></div>
             <br>
             <div class="rubric">Иностранные языки</div>
             <div class="info-k">
@@ -70,7 +69,7 @@
             </div>
         </div>
         <div class="ticket">
-            <div class="cir"><img src="img/library.png"></div>
+            <div class="cir"><img alt="детское творчество, творческое развитие" title="Творческое направление" src="img/library.png"></div>
             <br>
             <div class="rubric">Творческое направление</div>
             <div class="info-k">
@@ -78,7 +77,7 @@
             </div>
         </div>
         <div class="ticket">
-            <div class="cir"><img src="img/blackboard.png"></div>
+            <div class="cir"><img alt="подготовка детей к школе, Киндерленд подготовка к школе" title="Подготовка к школе" src="img/blackboard.png"></div>
             <br>
             <div class="rubric">Подготовка к школе</div>
             <div class="info-k">
@@ -92,13 +91,13 @@
     <br>
     <br> Классы где проходят занятия разделены по зонам: рабочая зона, игровая, зона отдыха и развлечений, библиотека, хореографический и музыкальный зал, зона спорта, локальные зоны аудио и видео просмотра.
     <br>
-    <br> Мы проводим главные 4 праздника в году, на 3х языках, в которых прослеживается четкий и сбалансированный смысл и с презентацией для родителей как открытый урок.
+    <br> Мы проводим главные 4 праздника в году, на 3х языках, в которых прослеживается четкий и сбалансированный смысл и с презентацией для родителей как открытый урок для подведения результатов учебы.
 </p>
 <div class="rubric">Главные 4 праздника в году</div>
 <div class="wrap-cards">
     <div class="container-x">
         <div class="ticket">
-            <div class="cir"><img src="img/autumn.png"></div>
+            <div class="cir"><img alt="детский праздник Осенняя забава" title="Праздник Осенняя забава" src="img/autumn.png"></div>
             <br>
             <div class="rubric">Осенняя забава</div>
             <div class="info-k">
@@ -106,7 +105,7 @@
             </div>
         </div>
         <div class="ticket">
-            <div class="cir"><img src="img/easter.png"></div>
+            <div class="cir"><img alt="праздник Рождества в детском саду" title="Праздник Рождества" src="img/christmas.png"></div>
             <br>
             <div class="rubric">Рождество</div>
             <div class="info-k">
@@ -114,7 +113,7 @@
             </div>
         </div>
         <div class="ticket">
-            <div class="cir"><img src="img/mother.png"></div>
+            <div class="cir"><img alt="праздник мамы в детском саду" title="Праздник Мамы" src="img/mother.png"></div>
             <br>
             <div class="rubric">Мама</div>
             <div class="info-k">
@@ -122,7 +121,7 @@
             </div>
         </div>
         <div class="ticket">
-            <div class="cir"><img src="img/father.png"></div>
+            <div class="cir"><img alt="праздник Папы в детском саду" title="Праздник Папы" src="img/father.png"></div>
             <br>
             <div class="rubric">Папа</div>
             <div class="info-k">
