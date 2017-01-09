@@ -1,4 +1,4 @@
-<?php $this->assign("title", "Контакты"); ?>
+<?php $this->assign("title", "Контакты Киндерленд | Контакты детский сад Святошино | Детский сад Академгородок контакты"); ?>
 <?php $this->Html->meta("keywords", "детские сады киева на карте, детские сады адрес, детский сад контакты, адрес центр развития ребенка Киндерленд, контакты детский сад Киндерленд,", array("inline" => false)); ?>
 <?php $this->Html->meta("description", "Наш центр развития ребенка надодится в Святошинском районе (Академгородок), улица Олевская 5, в живописном микрорайоне возле соснового леса", array("inline" => false)); ?>
 
@@ -6,9 +6,9 @@
 <div class="for-flex cs">
     <div class="address">
         <div class="rubric"><i class="fa fa-map-marker"></i> Адрес</div>
-        <div class="spage"> г. Киев, Святошинський район
+        <p class="spage"> г. Киев, Святошинський район
             <br/> ул. Олевска, 5
-            <br/> (м. Академгородок)</div>
+            <br/> м. Академгородок, м. Святошино, м. Житомирская</p>
     </div>
     <div class="telephone">
         <div class="rubric"><i class="fa fa-phone"></i> Телефон</div>
@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="email">
-        <div class="rubric"><i class="fa fa-envelope-o"></i> Почта</div>
+        <div class="rubric"><i class="fa fa-envelope-o"></i>Почта</div>
         <div class="spage">kinderland@kinderland.org.ua</div>
     </div>
 </div>
