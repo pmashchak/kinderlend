@@ -152,6 +152,7 @@
              <div class="t-content">
                  <ul class="footer-links">
                     <li><a href="https://mail.yandex.com/?pdd_domain=kinderland.org.ua" target="_blank">Вход в Почту</a></li>
+                    <li><a href="https://kinderland.bitrix24.ua" target="_blank">Битрикс</a></li>
                  </ul>
              </div>
          </div>
