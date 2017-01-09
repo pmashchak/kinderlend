@@ -100,7 +100,6 @@
           <li><a href="detskiy-sad" hreflang="ru" title="Детский сад">Детский сад</a></li>
           <!-- <li><a href="no-full.html" >Сад короткого дня</a></li> -->
           <li><a href="centr-razvitiya" hreflang="ru" title="Центр развития">Центр развития</a></li>
-          <li><a href="contacts" hreflang="ru" title="Контакты">Контакты</a></li>
           <li><a href="angliyskiy" hreflang="ru" title="Английский">Английский</a></li>
           <li><a href="gruppy" hreflang="ru" title="Группы">Группы</a></li>
           <li><a href="rasporiadok-dnia" hreflang="ru" title="Распорядок дня">Распорядок дня</a></li>
@@ -110,6 +109,7 @@
           <!-- <li><a href="tvorchestvo.html" >Творчество</a></li> -->
           <li><a href="foto" hreflang="ru" title="Фото">Фото</a></li>
           <li><a href="menu" hreflang="ru" title="Меню">Меню</a></li>
+          <li><a href="contacts" hreflang="ru" title="Контакты">Контакты</a></li>
           <li><a href="ceny" hreflang="ru" title="Цены" >Цены</a></li>
         </ul>
       </div>
