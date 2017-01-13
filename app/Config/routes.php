@@ -37,6 +37,7 @@
   Router::connect('/menu', array('controller' => 'home', 'action' => 'menu'));
   Router::connect('/foto', array('controller' => 'home', 'action' => 'foto'));
   Router::connect('/ceny', array('controller' => 'home', 'action' => 'ceny'));
+  Router::connect('/thank_you', array('controller' => 'home', 'action' => 'thank_you'));
   Router::connect('/sitemap.html', array('controller' => 'home', 'action' => 'sitemap'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
