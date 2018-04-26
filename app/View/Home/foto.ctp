@@ -1,5 +1,4 @@
-<?php $this->assign("title", "Фото"); ?>
-<?php $this->Html->meta("keywords", "фото детский сад, фото Киндерленд, фотографии детских садов, фотографии детей в детском саду, фотографии помещения детского сада", array("inline" => false)); ?>
+<?php $this->assign("title", "Фото детский сад Киндерленд"); ?>
 <?php $this->Html->meta("description", "Наши комнаты разделены по секциям, здесь, на наших фото видно разные зоны для игры, занятий, отдыха. Это способствует быстрому переключению и концентрации внимания ребенка.", array("inline" => false)); ?>
 <!-- https://v4-alpha.getbootstrap.com/components/carousel/
     http://ashleydw.github.io/lightbox/ -->

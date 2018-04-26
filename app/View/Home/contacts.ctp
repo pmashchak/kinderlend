@@ -1,5 +1,4 @@
 <?php $this->assign("title", "Контакты Киндерленд | Контакты детский сад Святошино | Детский сад Академгородок контакты"); ?>
-<?php $this->Html->meta("keywords", "детские сады киева на карте, детские сады адрес, детский сад контакты, адрес центр развития ребенка Киндерленд, контакты детский сад Киндерленд,", array("inline" => false)); ?>
 <?php $this->Html->meta("description", "Наш центр развития ребенка надодится в Святошинском районе (Академгородок), улица Олевская 5, в живописном микрорайоне возле соснового леса", array("inline" => false)); ?>
 
 <h1 class="rubric">Контакты</h1>
@@ -8,7 +7,8 @@
         <div class="rubric"><i class="fa fa-map-marker"></i> Адрес</div>
         <p class="spage"> г. Киев, Святошинський район
             <br/> ул. Олевска, 5
-            <br/> м. Академгородок, м. Святошино, м. Житомирская</p>
+            <br/> м. Академгородок, м. Святошино, м. Житомирская
+        </p>
     </div>
     <div class="telephone">
         <div class="rubric"><i class="fa fa-phone"></i> Телефон</div>
@@ -23,4 +23,5 @@
         <div class="spage">kinderland@kinderland.org.ua</div>
     </div>
 </div>
-<iframe src="https://api-maps.yandex.ru/frame/v1/-/CVXpu4jF" width="560" height="400" frameborder="0" class="map"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d10157.275337660114!2d30.348849697140384!3d50.47240787165317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d50.4653159!2d30.3556617!4m5!1s0x40d4cccc5316ede3%3A0x9b36b15cb455488!2z0LLRg9C70LjRhtGPINCe0LvQtdCy0YHRjNC60LAsIDUsINCa0LjRl9CyLCDQo9C60YDQsNC40L3QsCwgMDIwMDA!3m2!1d50.4796011!2d30.343261299999998!5e0!3m2!1sru!2sru!4v1494832775158" width="100%" height="434" frameborder="0" style="border:0" allowfullscreen></iframe>
+

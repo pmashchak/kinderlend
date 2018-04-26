@@ -1,5 +1,4 @@
-<?php $this->assign("title", "Распорядок дня"); ?>
-<?php $this->Html->meta("keywords", "расписание в детском саду, время занятий Киндерленд", array("inline" => false)); ?>
+<?php $this->assign("title", "Распорядок дня | Детский сад Киндерленд"); ?>
 <?php $this->Html->meta("description", "Мы работаем с 8.00 до 19.00 подстраиваясь под режим каждого ребенка. Мы делаем наше рассписание удобным для вас.", array("inline" => false)); ?>
 
 <div class="for-flex">

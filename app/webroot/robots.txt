@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://kinderland.org.ua/sitemap.xml
-Host: kinderland.org.ua
+Sitemap: https://kinderland.org.ua/sitemap.xml
+Host: https://kinderland.org.ua

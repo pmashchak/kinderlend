@@ -10,20 +10,20 @@
   <title><?php echo $this->fetch('title'); ?></title>
 
   <?php echo $this->Html->css('/fa/css/font-awesome.css'); ?>
-  <?php echo $this->Html->css('http://fonts.googleapis.com/css?family=Neucha|Bonbon&subset=latin,cyrillic'); ?>
+  <?php echo $this->Html->css('https://fonts.googleapis.com/css?family=Neucha|Bonbon&subset=latin,cyrillic'); ?>
   <?php echo $this->Html->css('ekko-lightbox.min'); ?>
   <?php echo $this->Html->css('bootstrap.min'); ?>
   <?php echo $this->Html->css('main'); ?>
 
   <?php echo $this->Html->script('jquery.min'); ?>
+  <?php echo $this->Html->script('tether.min'); ?>
   <?php echo $this->Html->script('bootstrap.min'); ?>
   <?php echo $this->Html->script('ekko-lightbox.min'); ?>
   <?php echo $this->Html->script('application'); ?>
 
   <!--Favicon-->
   <link rel="shortcut icon"" href="img/lst.png" type="image/png">
-
-  <!-- Google.Analytics -->
+  <!-- ============================== Google Analytics ====================================== -->
   <script type="text/javascript">
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,6 +32,7 @@
     ga('create', 'UA-34817801-1', 'auto');
     ga('send', 'pageview');
   </script>
+  <!-- ============================== Google Analytics ====================================== -->
 </head>
 <body>
     <!--wrapper-->
@@ -139,57 +140,26 @@
              <div class="f-content">
                  <ul class="footer-links">
                      <li><a href="sitemap.html" title="Карта Сайта Киндерленд">Карта Сайта</a></li>
-                     <li><a class="facebook" href="https://www.facebook.com/379462358912150" title="Киндерленд в Фейсбуке"></a></li>
+                     <li><a href="http://landing.kinderland.org.ua/" title="Записатся в Киндерленд">Записатся в Киндерленд</a></li>
+                     <li><a class="facebook" href="https://www.facebook.com/379462358912150" title="Киндерленд в Фейсбуке" rel="nofollow" target="_blank"></a></li>
                  </ul>
-
              </div>
              <div class="s-content">
                  <ul class="footer-links">
                     <li><a href="contacts" title="Киндерленд Адрес">Киндерленд Адрес</a></li>
-                    <li><a href="/" title="Лицензия Киндерленд">Лицензия №575441</a></li>
+                    <li><span>Лицензия №575441</span></li>
                  </ul>
              </div>
              <div class="t-content">
                  <ul class="footer-links">
-                    <li><a href="https://mail.yandex.com/?pdd_domain=kinderland.org.ua" target="_blank">Вход в Почту</a></li>
-                    <li><a href="https://kinderland.bitrix24.ua" target="_blank">Битрикс</a></li>
+                    <li><a href="https://mail.yandex.com/?pdd_domain=kinderland.org.ua" rel="nofollow" target="_blank">Вход в Почту</a></li>
+                    <li><a href="https://kinderland.bitrix24.ua" rel="nofollow" target="_blank">Битрикс</a></li>
                  </ul>
              </div>
          </div>
        </div>
        <!--footer end-->
     </div>
-    <!--wrapper end-->
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-      (function (d, w, c) {
-          (w[c] = w[c] || []).push(function() {
-              try {
-                  w.yaCounter40972139 = new Ya.Metrika({
-                      id:40972139,
-                      clickmap:true,
-                      trackLinks:true,
-                      accurateTrackBounce:true
-                  });
-              } catch(e) { }
-          });
-
-          var n = d.getElementsByTagName("script")[0],
-              s = d.createElement("script"),
-              f = function () { n.parentNode.insertBefore(s, n); };
-          s.type = "text/javascript";
-          s.async = true;
-          s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-          if (w.opera == "[object Opera]") {
-              d.addEventListener("DOMContentLoaded", f, false);
-          } else { f(); }
-      })(document, window, "yandex_metrika_callbacks");
-  </script>
-  <noscript>
-    <div>
-      <img src="https://mc.yandex.ru/watch/40972139" style="position:absolute; left:-9999px;" alt="" />
     </div>
-  </noscript>
 </body>
 </html>

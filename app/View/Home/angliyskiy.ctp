@@ -1,5 +1,4 @@
 <?php $this->assign("title", "Английский"); ?>
-<?php $this->Html->meta("keywords", "английский язык Киндерленд, английский для детей", array("inline" => false)); ?>
 <?php $this->Html->meta("description", "В нашем центре обучают опытные преподаватели английского языка. Мы учим самых маленьких от 8 ми месяцев или помогаем школьникам с английским.", array("inline" => false)); ?>
 <div class="for-flex">
     <img src="img/en-book.png" class="img-logic">
