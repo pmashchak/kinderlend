@@ -21,15 +21,15 @@
 </div>
 <table class="table">
     <tr>
-        <td>3800</td>
+        <td>4500</td>
         <td><a href="centr-razvitiya">Сад не полного дня (без питания)</a></td>
     </tr>
     <tr>
-        <td>4800</td>
+        <td>5500</td>
         <td><a href="centr-razvitiya">Сад не полного дня (с питанием)</a></td>
     </tr>
     <tr>
-        <td>6800</td>
+        <td>7400</td>
         <td><a href="detskiy-sad">Сад полного дня</a></td>
     </tr>
     <tr>

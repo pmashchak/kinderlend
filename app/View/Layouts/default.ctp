@@ -65,9 +65,7 @@
       <div class="info-header">
         <div class="motto">Качественно Доступно и Легко</div>
         <div class="contacts">
-          Kievstar <a class="phones" href="tel:+380964063518" title="Телефоны Киндерленд (096) 406-35-18">(096) 406-35-18</a><br/>
-          Vodafone <a class="phones" href="tel:+380991727286" title="Телефоны Киндерленд">(099) 172-72-86</a><br/>
-          Life     <a class="phones" href="tel:+380933670440" title="Телефоны Киндерленд">(093) 367-04-40</a>
+          Kievstar <a class="phones" href="tel:+380964063518" title="Телефоны Киндерленд (096) 406-35-18">(096) 406-35-18</a>
         </div>
       </div>
         <!--btns for loc.
@@ -140,7 +138,7 @@
              <div class="f-content">
                  <ul class="footer-links">
                      <li><a href="sitemap.html" title="Карта Сайта Киндерленд">Карта Сайта</a></li>
-                     <li><a href="http://landing.kinderland.org.ua/" title="Записатся в Киндерленд">Записатся в Киндерленд</a></li>
+                     <li><a href="http://kiev.kinderland.org.ua/" title="Записатся в Киндерленд">Записатся в Киндерленд</a></li>
                      <li><a class="facebook" href="https://www.facebook.com/379462358912150" title="Киндерленд в Фейсбуке" rel="nofollow" target="_blank"></a></li>
                  </ul>
              </div>
